@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   daniapp:
-    image: danimg:latest
+    image: ghcr.io/dano-19/daniela-img:latest
     deploy:
       replicas: 1
       labels:
